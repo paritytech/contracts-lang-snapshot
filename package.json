@@ -1,0 +1,22 @@
+{
+  "name": "revive-metrics",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Snapshot tool: queries pallet-revive storage on Polkadot Asset Hub to bucket contracts by language (PVM/Rust vs EVM/Solidity) and report usage metrics",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@polkadot/api": "^15.5.1",
+    "@polkadot/util": "^13.2.3",
+    "cbor-x": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
