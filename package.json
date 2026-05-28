@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "description": "Snapshot tool: queries pallet-revive storage on Polkadot Asset Hub to bucket contracts by language (PVM/Rust vs EVM/Solidity) and report usage metrics",
+  "license": "MIT",
   "scripts": {
     "start": "tsx src/index.ts",
     "build": "tsc",
